@@ -39,7 +39,6 @@
       letter-spacing: 0.5px;
       font-weight: 700;
       text-transform: uppercase;
-      color: orange;
     }
 
     .article__title {
@@ -79,7 +78,7 @@
         letter-spacing: 1px;
         text-transform: uppercase;
         border-bottom: 1px solid transparent;
-        color: orange;
+        color: $gray;
         &:hover {
           color: $dark;
           border-color: $brand-color;

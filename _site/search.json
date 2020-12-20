@@ -1,17 +1,25 @@
 [
   
     {
-      "title"    : "三毛：我不求深刻只求简单",
+      "title"    : "4장 아키텍처",
       "category" : "",
-      "tags"     : "reading",
-      "url"      : "/2020/06/25/architecture/",
-      "date"     : "25 Jun, 2020"
+      "tags"     : "DDD",
+      "url"      : "/2020/10/02/architecture/",
+      "date"     : "2 Oct, 2020"
+    } ,
+  
+    {
+      "title"    : "Find a connection with the reader",
+      "category" : "",
+      "tags"     : "resources1",
+      "url"      : "/2018/07/24/find-a-connection-with-the-reader/",
+      "date"     : "24 Jul, 2018"
     } ,
   
     {
       "title"    : "Why a brand is often important",
       "category" : "",
-      "tags"     : "style",
+      "tags"     : "Style",
       "url"      : "/2018/07/19/why-a-brand-is-often-important/",
       "date"     : "19 Jul, 2018"
     } ,

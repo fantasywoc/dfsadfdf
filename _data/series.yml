@@ -1,14 +1,14 @@
-- name: Author
+- name: 도메인 주도 설계 구현
   children:
-    - title: Author
+    - title: 4장 아키텍처
       path: /20/10/02/architecture/
-    - title: Author
+    - title: 11장 팩토리
       path: /2018/07/19/why-a-brand-is-often-important/
-    - title: Author
+    - title: 12장 리포지토리
       open: false
-    - title: Author
+    - title: 13장 리포지토리1
       path: /2018/07/17/time-to-givegifts-to-everyone/
-- name: Author
+- name: series2
   children:
     - title: qq1
       path: https://www.naver.com
