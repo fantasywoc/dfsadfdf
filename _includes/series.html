@@ -1,0 +1,44 @@
+<!-- begin series -->
+{% if page.series %}
+<div class="container" style="margin-bottom: 60px">
+    <div class="row">
+        <div class="col col-10 push-2 col-11 push-t-1 col-m-12 push-m-0">
+
+            <div style="font-size: 20px">
+                <span style="font-size: 25px; font-weight: 600;">
+                    {{ page.series }}
+                </span>fantasy
+            </div>
+
+            <ul>
+                {% for series in site.data.series %}
+                {% if series.name == page.series %}
+                {% for child in series.children %}
+
+
+
+                {% if page.url == child.path %}
+                <div style="margin: 10px 10px; font-size: 17px;">
+                    {{child.title}}
+                </div>
+                {% elsif child.open == false %}
+                <div style="margin: 10px 10px; font-size: 17px;color: lightgray;">
+                    {{child.title}}
+                </div>
+
+                {% else %}
+                <div style="margin: 10px 10px; font-size: 17x; font-weight: bold;">
+                    <li>
+                    <a href="{{ site.baseurl }}{{ child.path }}">{{child.title}}</a>
+                    </li>
+                </div>
+                {% endif %}
+                {% endfor %}
+                {% endif %}
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+</div>
+<!-- end series -->
+{% endif %}

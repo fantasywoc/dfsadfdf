@@ -1,0 +1,16 @@
+- name: Author
+  children:
+    - title: Author
+      path: /20/10/02/architecture/
+    - title: Author
+      path: /2018/07/19/why-a-brand-is-often-important/
+    - title: Author
+      open: false
+    - title: Author
+      path: /2018/07/17/time-to-givegifts-to-everyone/
+- name: Author
+  children:
+    - title: qq1
+      path: https://www.naver.com
+    - title: qq2
+      path: https://www.google.com
